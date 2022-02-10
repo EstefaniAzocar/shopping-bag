@@ -1,0 +1,19 @@
+.somos{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.somos h2{
+    display: flex;
+    padding-top: 10px;
+    padding: 50px;
+    color: var(--colorTextAzul);
+}
+
+.somos p{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    font-size: 1.5em;
+}

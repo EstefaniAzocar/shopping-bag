@@ -1,0 +1,68 @@
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+ 
+ .productCard {
+     margin: 1em;
+     background-color: #2F2D2C;
+     color: white;
+     list-style: none;
+
+ }
+ .Namecard {
+     display: flex;
+     justify-content: center;
+     font-size: 1em;
+     
+     
+ }
+ 
+ .Pricecard {
+     font-size: 3em;
+     margin: 0;
+     margin-left: 8%;
+ }
+ 
+ .productImage {
+     margin: 1em;
+ }
+
+ .Section-Categories {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.Self-Categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(179.51deg, var(--color1) 1.26%, var(--color2) 23.77%, var(--color3) 72.38%, var(--color4) 95.72%);
+    font-size: 2em;
+    padding: 1em;
+    margin: 0.5em;
+
+}
+.Self-Categories a{
+    color: var(--colorTextWhite);
+    text-decoration: none;
+
+
+}
+
+
+.Title-categories {
+   font-size: 2em;
+   display: flex;
+   justify-content: center;
+   
+   
+
+}

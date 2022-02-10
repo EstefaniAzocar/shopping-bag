@@ -1,0 +1,8 @@
+header{
+    background-color: var(--colorNavBeigs);
+}
+
+.headerFloat{
+    position: fixed;
+    z-index: 2;
+}
