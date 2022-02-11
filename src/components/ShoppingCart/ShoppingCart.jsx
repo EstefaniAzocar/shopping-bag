@@ -9,12 +9,14 @@ const ShoppingCart = () => {
 
   const{dispatch,state}=CartState();
   const removeAllCart=() =>{dispatch({type:TYPES.CLEAR_CART})};
-  const [url, setUrl] = useState("")
+  const [url, setUrl] = useState("");
+  const productosList= state.cart.map((item)=>state.products.find((e)=>e.id===item.id));
+console.log(productosList)
 const message = () => {
 let text = "https://wa.me/573133064826?text="
-text += `Bienvenido a Amaranta , hemos visto que estas interesado en los siguientes productos: \n\n`
-state.cart.forEach(product => {
-text += `${product.name}\n`
+text += `Bienvenido a Shopping-bag , hemos visto que estas interesado en los siguientes productos: \n\n`
+productosList.forEach(product => {
+text += `${product.name},\n`
 })
 text += `\n\nGracias por confiar en nostros, nos podremos en contacto contigo muy pronto para terminar tu compra.\n`
 setUrl(encodeURI(text)) }
