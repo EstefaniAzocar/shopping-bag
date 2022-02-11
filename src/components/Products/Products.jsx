@@ -22,7 +22,7 @@ export function Products() {
             </div>
             <div className="Self-Categories">
               <img src="https://drive.google.com/uc?export=download&id=1HIuDtaLbrZI2PcjHKDzecnJvsHqAtsNq" alt="Paraguas"></img>
-              <Link to="/products/">Paraguas</Link>
+              <Link to="/products/Paraguas">Paraguas</Link>
             </div>
             <Outlet/>
         </div>

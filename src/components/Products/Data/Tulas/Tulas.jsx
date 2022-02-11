@@ -3,37 +3,37 @@ export const Tulas= {
 
     productos : [
         {
-        id: "1",
+        id: "101",
         name: "TULA IMPERMEABLE CON OREJAS",
         img:"https://drive.google.com/uc?export=download&id=1HIuDtaLbrZI2PcjHKDzecnJvsHqAtsNq",
         material: "seda poliester",
       },
       {
-        id: "2",
+        id: "102",
         name: "TULA IMPERMEABLE 190T CON OREJAS",
         img:"https://drive.google.com/uc?export=download&id=1HIuDtaLbrZI2PcjHKDzecnJvsHqAtsNq",
         material: "seda poliester",
       },
       {
-        id: "3",
+        id: "103",
         name: "TULA IMPERMEABLE 190T CON OREJAS",
         img:"https://drive.google.com/uc?export=download&id=1HIuDtaLbrZI2PcjHKDzecnJvsHqAtsNq",
         material: "seda poliester",
       },
       {
-        id: "4",
+        id: "104",
         name: "TULA IMPERMEABLE 190T CON OREJAS",
         img:"https://drive.google.com/uc?export=download&id=1HIuDtaLbrZI2PcjHKDzecnJvsHqAtsNq",
         material: "seda poliester",
       },
       {
-        id: "5",
+        id: "105",
         name: "TULA IMPERMEABLE 190T CON OREJAS",
         img:"https://drive.google.com/uc?export=download&id=1HIuDtaLbrZI2PcjHKDzecnJvsHqAtsNq",
         material: "seda poliester",
       },
       {
-        id: "6",
+        id: "106",
         name: "TULA IMPERMEABLE 190T CON OREJAS",
         img:"https://drive.google.com/uc?export=download&id=1HIuDtaLbrZI2PcjHKDzecnJvsHqAtsNq",
         material: "seda poliester",
