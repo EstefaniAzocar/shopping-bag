@@ -10,11 +10,11 @@ export function Cards (props) {
         <div className="productCard">
             <div className="productImage">
                 <img src= {img} alt={'img'+name} />
-                </div>
+            </div>
         <div className="productInfo">
             <h1 className="Namecard">{name}</h1>
          </div>
-         <button onClick={()=> addToCart(id)}>Agregar a el Carrito</button>
+         <button onClick={()=> addToCart(id)}>Cotizar</button>
         </div> 
     )
 }

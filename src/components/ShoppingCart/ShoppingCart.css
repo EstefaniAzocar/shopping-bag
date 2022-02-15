@@ -1,0 +1,39 @@
+.CotizaCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CotizaCart h2{
+    display: flex;
+    justify-content: center;
+    color: var(--colorTextAzul);
+    margin-bottom: auto;
+    padding-top: 20px;
+}
+
+.CotizaCart button{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    align-self: center;
+
+}
+
+.CotizaCart textarea{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 60px;
+    align-self: center;
+    margin: 10px;
+}
+
+.CotizaCart a{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    align-self: center;
+}

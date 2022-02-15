@@ -7,10 +7,18 @@
  
  .productCard {
      margin: 1em;
-     background-color: #2F2D2C;
-     color: white;
+     background: linear-gradient(179.51deg, var(--color1) 1.26%, var(--color2) 23.77%, var(--color3) 72.38%, var(--color4) 95.72%);
+     color: var(--colorTextAzul);
      list-style: none;
 
+ }
+ .productCard button{
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    align-self: center;
+     
  }
  .Namecard {
      display: flex;
@@ -51,7 +59,7 @@
 
 }
 .Self-Categories a{
-    color: var(--colorTextWhite);
+    color: var(--colorTextAzul);
     text-decoration: none;
 
 

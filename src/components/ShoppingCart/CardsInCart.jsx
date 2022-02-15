@@ -15,6 +15,7 @@ export function CardsInCart (props) {
                 </div>
         <div className="productInfo">
             <h1 className="Namecard">{name}</h1>
+            
          </div>
           <button onClick={()=> removeAllCart(id)}>Eliminar del Carrito</button> 
         </div> 

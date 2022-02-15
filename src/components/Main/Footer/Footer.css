@@ -1,0 +1,85 @@
+footer {
+    background-color: var(--colorFooter);
+    color: var(--colorTextWhite);
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    width: 100vw;
+    margin-top: auto;
+    
+  }
+  
+.logoWhite{
+    align-self: center;
+    display: flex;
+    max-width: 80px;
+}
+.style1{
+  
+    display: flex;
+    margin: 1vw;
+    justify-content: center;
+    min-width: min(30vw, 25%);
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.direction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1vw;
+}
+.whatsapp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1vw;
+}
+.correo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1vw;
+}
+
+@media (max-width: 950px){
+
+    .style1{
+  
+        display: flex;
+        flex-direction: column;
+        margin: 1vw;
+        min-width: min(20vw, 15%);
+        padding: 1vh;
+    }
+    .direction{
+       width: 40vh;
+        align-items: center;
+        margin: 1vw;
+    }
+    .direction img{
+        display: flex;
+        width: 5vw;
+    }
+    .whatsapp{
+        width: 40vh;
+         align-items: center;
+         margin: 1vw;
+     }
+     .whatsapp img{
+         display: flex;
+         width: 5vw;
+     }
+     .correo{
+        width: 40vh;
+         align-items: center;
+         margin: 1vw;
+     }
+     .correo img{
+         display: flex;
+         width: 5vw;
+     }
+}
